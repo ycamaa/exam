@@ -1,0 +1,65 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="styles/style3.css" />
+<script type="text/javascript" src="js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    setTimeout("location.href = 'index.html';", 25000);
+</script>
+
+
+<head>
+    <title>Online diagnostic grammar test</title>
+</head>
+
+<body>
+    <div>
+
+        <body onload="StartTimer();">
+            <span id="Timer" class="time"></span>
+        </body>
+
+    </div>
+    <style>
+        #txt {
+            width: 0%;
+            height: 1000px;
+            background: white;
+            position: absolute;
+            color: #353535;
+            top: 100px;
+        }
+    </style>
+
+    <div class="txt1">
+        <div class="titlet">
+            <h1>الأكاديمية الجهوية للتربية والتكوين لجهة الدار البيضاء سطات</h1>
+        </div>
+        <div class="tit">
+            <div>
+                <h2>Direction provinciale ANFA</h2>
+            </div>
+            <div>
+                <h2>Lycée CHAWKI</h2>
+            </div>
+        </div>
+    </div>
+    <div id="txt">
+        <div class="cent">
+            <h3>Vos réponses ont bien été enregistrées.</h3>
+            <h4> Merci pour votre contribution a ce test qui permettra la réussite de révision de tous les éléments manquants.</h4>
+            <h4> NB: Aucune note ne sera consacrée pour cette évaluation.</h4>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("txt");
+        var y = document.getElementById("Timer")
+        setTimeout(function() {
+            x.style.width = "100%"
+        }, 20000);
+    </script>
+
+    <iframe id="myIframe" src="forms/form.html"></iframe>
+</body>
+
+</html>
