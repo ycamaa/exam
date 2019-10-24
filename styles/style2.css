@@ -34,7 +34,7 @@ body {
     margin-top: -35px;
 }
 
-.vid iframe {
+.vid video {
     height: 300px;
     width: 550px;
     border:0;
