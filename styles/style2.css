@@ -34,9 +34,10 @@ body {
     margin-top: -35px;
 }
 
-.vid video {
+.vid iframe {
     height: 300px;
     width: 550px;
+    border:0;
 }
 
 .button {
