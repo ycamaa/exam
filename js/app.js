@@ -3,7 +3,7 @@ var flash = false; // Used to toggle the red background for when the timer hits 
 
 // Called onload, calculates and formats timer display
 function StartTimer() {
-    totalSeconds = 20; // Set to number of seconds left
+    totalSeconds = 720; // Set to number of seconds left
 
     setInterval("Timer_Tick()", 1000); // Start the timer, set to go off every second
 
